@@ -41,19 +41,7 @@ nav {
   text-transform: uppercase;
   gap: 40px;
 }
-.scroll-container {
-  width: 350px;
-  height: 200px;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
-}
-.scroll-page {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  font-size: 5em;
-}
+
 section {
   /* display: block; */
 }
@@ -83,6 +71,11 @@ section {
   padding: 20px;
   width: fit-content;
 }
+.webpage-more:hover {
+  background-color: white;
+  color: black;
+}
+
 .second-image {
   background-image: url(https://spacey-kappa.vercel.app/assets/landscape-2ee9445b.jpg);
 }
