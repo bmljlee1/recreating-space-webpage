@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  color: white;
+  position: fixed;
+}
+a {
+  color: rgb(255, 255, 255);
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  align-items: center;
+}
+section {
+  /* display: block; */
+}
+.first-image {
+  background-image: url(https://spacey-kappa.vercel.app/assets/galaxy-5803c9f1.jpg);
+}
+.feature {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100svh;
+  width: 100svw;
+}
