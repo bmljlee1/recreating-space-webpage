@@ -7,6 +7,9 @@ html {
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 header {
   display: flex;
   color: white;
@@ -19,6 +22,10 @@ h1 {
   display: block;
   font-weight: bold;
   font-size: 37px;
+}
+h2 {
+  font-weight: 100;
+  font-size: 20px;
 }
 a {
   color: rgb(255, 255, 255);
@@ -34,6 +41,19 @@ nav {
   text-transform: uppercase;
   gap: 40px;
 }
+.scroll-container {
+  width: 350px;
+  height: 200px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.scroll-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 5em;
+}
 section {
   /* display: block; */
 }
@@ -41,7 +61,6 @@ section {
   background-image: url(https://spacey-kappa.vercel.app/assets/galaxy-5803c9f1.jpg);
 }
 .feature {
-  /* position: relative; */
   background-size: cover;
   background-position: center;
   height: 100svh;
@@ -59,11 +78,21 @@ section {
 .webpage-more {
   border: 2px solid white;
   color: white;
-  margin-top: 10px;
+  margin-top: 25px;
   display: block;
-  padding: 15px;
+  padding: 20px;
   width: fit-content;
 }
 .second-image {
   background-image: url(https://spacey-kappa.vercel.app/assets/landscape-2ee9445b.jpg);
+}
+.third-image {
+  background-image: url(https://spacey-kappa.vercel.app/assets/eclipse-11d9479c.jpg);
+}
+footer {
+  color: rgb(60, 60, 60);
+  background-color: black;
+  text-align: center;
+  padding: 35px;
+  font-size: 15px;
 }
