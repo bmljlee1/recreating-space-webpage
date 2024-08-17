@@ -8,6 +8,35 @@
     <title>Week 1 Project</title>
   </head>
   <body>
+    <div class="audio">
+      <audio id="player" src="04 Day One.mp3"></audio>
+      <div>
+        <button
+          class="audio-buttons"
+          onclick="document.getElementById('player').play()"
+        >
+          Play
+        </button>
+        <button
+          class="audio-buttons"
+          onclick="document.getElementById('player').pause()"
+        >
+          Pause
+        </button>
+        <button
+          class="audio-buttons"
+          onclick="document.getElementById('player').volume += 0.1"
+        >
+          Vol +
+        </button>
+        <button
+          class="audio-buttons"
+          onclick="document.getElementById('player').volume -= 0.1"
+        >
+          Vol -
+        </button>
+      </div>
+    </div>
     <header>
       <h1>Spacey</h1>
       <nav>
@@ -24,6 +53,9 @@
           <h2>Recent launch</h2>
           <h1>Shipflight Video</h1>
           <a class="webpage-more" href="https://readme.com/">Read More</a>
+          <div>
+            <a href="#top"><button class="go-top">Back to top</button></a>
+          </div>
         </div>
       </section>
       <section ID="mid" class="feature second-image">
